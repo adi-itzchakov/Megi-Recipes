@@ -1,0 +1,41 @@
+.headline{
+    margin-left: 82%;
+    font-size: 20px;
+}
+hr{
+    width: 60%;
+    margin-right: 50%;
+    color:  #f2f2f2;
+}
+.AboutTheFood{
+    text-align: right;
+    margin-right: 10%;
+}
+
+#PinkImg{
+    position: absolute;
+    width:100%;
+    z-index: -1;
+    left: 0;
+    height: 20%;
+    background-size: cover;
+}
+ul{
+    direction: rtl;
+    list-style-type:circle;
+    margin-right: 90px;
+}
+
+.headlineaboutMe{
+    margin-left: 40px;
+}
+.AboutMe{
+    text-align: right;
+    margin-right: 10%;
+}
+
+#Me{
+    width:20%;
+    height: 40%;
+    margin: -120px 0px 0px 280px;
+}
