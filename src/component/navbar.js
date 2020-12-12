@@ -9,6 +9,13 @@ class Navbar extends Component {
     handleItemClick = (e, { name }) => this.setState({
        activeItem: name,
       })
+    
+    handleContactClick =() => {
+      window.scrollTo({
+        top: 690,
+        behavior: 'smooth',
+    });
+    }
 
     render(){
     const { activeItem } = this.state
@@ -22,7 +29,7 @@ class Navbar extends Component {
               <Menu.Item
                 name='צור קשר'
                 active={activeItem === 'צור קשר'}
-                onClick={this.handleItemClick}
+                onClick={this.handleContactClick}
               />
               <Menu.Menu position='right'>
               <Menu.Item as={Link} to='/salads'

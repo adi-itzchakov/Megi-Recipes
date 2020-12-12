@@ -6,10 +6,9 @@ class Footer extends Component{
     render(){
         return(
             <div className="footer">
-                <div className="headline">
-                    <span className="writeUse">:כתבו לנו</span>
-                    <hr/>
-                </div> 
+                <br/>
+                <span className="writeUse">:כתבו לנו</span>
+                <hr />
                 <div className="Name">    
                     <Input type="text" placeholder="שם פרטי" style={{direction:'rtl'}} />
                     <br/>

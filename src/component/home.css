@@ -1,15 +1,39 @@
-.headline{
-    margin-left: 82%;
-    font-size: 20px;
+.all{
+    margin-top: 10px;
 }
-hr{
-    width: 60%;
-    margin-right: 50%;
+
+.headline1{
+    font-size: 20px;
+    margin: 10px 0px 0px 1130px;
+}
+.headline2{
+    font-size: 20px;
+    margin: 0px 0px 0px 1120px;
+}
+.headline3{
+    font-size: 20px;
+    margin: 10px 0px 0px 1180px;
+}
+.hr1{
+    width: 10%;
+    margin-right:9%;
+    color:  #f2f2f2;
+}
+.hr2{
+    width: 11%;
+    margin-right: 9%;
+    color:  #f2f2f2;
+}
+.hr3{
+    width: 6%;
+    margin-right: 9%;
     color:  #f2f2f2;
 }
 .AboutTheFood{
     text-align: right;
-    margin-right: 10%;
+    margin-left: 27%;
+    line-height: 2;
+    width: 900px;
 }
 
 #PinkImg{
@@ -17,13 +41,15 @@ hr{
     width:100%;
     z-index: -1;
     left: 0;
-    height: 20%;
+    height: 21%;
     background-size: cover;
 }
 ul{
     direction: rtl;
     list-style-type:circle;
     margin-right: 90px;
+    line-height: 2;
+
 }
 
 .headlineaboutMe{
@@ -31,11 +57,14 @@ ul{
 }
 .AboutMe{
     text-align: right;
-    margin-right: 10%;
+    margin-left: 56%;
+    width: 500px;
+    white-space: pre-wrap;
+    line-height: 2;
+    height: 150px;
 }
 
 #Me{
-    width:20%;
-    height: 40%;
-    margin: -120px 0px 0px 280px;
+    width:15%;
+    margin: -180px 0px 0px 400px;
 }
