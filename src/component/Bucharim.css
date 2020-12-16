@@ -3,3 +3,11 @@
     font-size: 30px;
     font-weight: bold;
 }
+
+.startCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
