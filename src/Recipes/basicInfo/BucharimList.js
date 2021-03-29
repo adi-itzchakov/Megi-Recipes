@@ -1,0 +1,82 @@
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import Recipe from "../Recipe.js";
+import './BucharimList.css';
+import background2 from '../../pictures/background2.jpg';
+import '../../component/pictures.css'
+// import Dushpere from '../pictures/dushpere.jpeg';
+// // import GrapeLeaves from '../pictures/GrapeLeaves.jpg';
+// import SoupUro from '../pictures/soupuro.jpg';
+// import Bahsh from '../pictures/bahsh.jpeg';
+// import Mantu from '../pictures/mantu.jpeg';
+// import Osvo from '../pictures/osvo.jpeg';
+// import Burecas from '../pictures/burecas.jpeg';
+// import Kovroran from '../pictures/kovroran.jpeg';
+// import Makaron_Kovroran from '../pictures/makaron-kovroran.jpeg';
+// import Haltisvo from '../pictures/haltisvo.jpeg';
+
+class BucharimList extends Component {
+  static defaultProps = {
+    recipes: [
+      {
+        title: "דושפרה",
+        ingredients: [],
+        img: "",
+      },
+      {
+        title: "עלי גפן",
+        ingredients: [],
+        img: "",
+      },
+      {
+        title: "מרק אורו",
+        ingredients: [],
+        img: "",
+      },
+      {
+        title: "באחש",
+        ingredients: [],
+        img: "",
+      },{
+        title: "מנטו",
+        ingredients: [],
+        img: "",
+      },
+      {
+        title: "אוסבו",
+        ingredients: [],
+        img: "",
+      },
+      {
+        title: "בורקסים",
+        ingredients: [],
+        img: "",
+      },
+      {
+        title: "קוורורן",
+        ingredients: [],
+        img: "",
+      },
+    ],
+  };
+
+  static propTypes = {
+    recipes: PropTypes.arrayOf(PropTypes.object),
+  };
+
+  render() {
+    const recipes = this.props.recipes.map((r, index) => (
+      <Recipe key={index} {...r} />
+    ));
+
+    return (
+      <div>
+        <img className="background2" src={background2} alt="background2"/>
+        <div className="headTitle">מאכלים בוכריים</div>
+        <div className="recipe-list">{recipes}</div>
+      </div>
+    );
+  }
+}
+
+export default BucharimList;

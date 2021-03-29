@@ -4,11 +4,10 @@
     font-weight: bold;
 }
 
-.startCards{
+
+.recipe-list{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     flex-direction: row;
-    margin: 50px 200px 0px 200px;
+    flex-wrap: wrap;
 }
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './home.css';
-import PinkImg from '../pictures/pink.png';
+import Purple from '../pictures/purple.png';
 import Megi from '../pictures/Megi.png';
 
 class Home extends Component{
@@ -9,7 +9,7 @@ class Home extends Component{
             <div>
                 <div className="all">
                     <div>
-                    <img id="PinkImg" src={PinkImg} alt="PinkImg"/>
+                    <img id="PurpleImg" src={Purple} alt="Purple"/>
                         <p className="headline1">:המטבח הבוכרי</p>
                         <hr className="hr1"/>
                     </div>
@@ -47,7 +47,7 @@ class Home extends Component{
                 </div>
                 <div className="all">
                     <div>
-                        <img id="PinkImg" src={PinkImg} alt="PinkImg" style={{height:500}}/>
+                        <img id="PurpleImg" src={Purple} alt="Purple" style={{height:500}}/>
                         <p className="headline3">...קצת עלי</p>
                         <hr className="hr3"/>
                     </div>
