@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Recipe from "../Recipe.js";
-import background1 from '../../pictures/background1.jpg';
 
 import '../../component/pictures.css'
 
@@ -11,7 +10,6 @@ class CakesList extends Component {
     recipes: [
       {
         title: "",
-        ingredients: [],
         img: "",
       },
     ],
@@ -27,8 +25,7 @@ class CakesList extends Component {
     ));
 
     return (
-      <div>
-        <img className="background1" src={background1} alt="background1"/>
+      <div className="color-container">
         <div className="headTitle">עוגות</div>
         <div className="recipe-list">{recipes}</div>
       </div>

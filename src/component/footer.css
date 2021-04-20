@@ -1,32 +1,31 @@
 .footer{
-    margin-bottom: -400px;
     background-color: grey;
     height: 180px;
-    position: absolute;
+    position:static;
     bottom:0;
-    width: 100%;
+    left:0;
+    right:0;
 }
 
 hr{
     width: 8%;
-    margin-right:12%;
+    margin-right:10%;
     color: white;
 }
 
 .writeUse{
     font-size: 20px;
-    margin: 10px 0px 0px 1130px;
+    margin-left: 83%;
 }
-
-.Name{
-    margin-left: 65%;
-    width: 15%;
+.information{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    direction: rtl;
+    margin-right: 20%;
 }
-
-.massage{
-    margin: -80px 0px 0px 650px;
-    width: 15%;
-    height: 120px;
+.details{
+    margin-left: 10px;
 }
 
 .icon{
@@ -34,7 +33,7 @@ hr{
 }
 
 .sendButton{
-    margin:-60px 0px 0px 500px;
+    margin:-40px 0px 0px 500px;
 }
 
 input[type="text"]::placeholder { 

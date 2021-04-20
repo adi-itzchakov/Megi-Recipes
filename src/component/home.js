@@ -10,7 +10,7 @@ class Home extends Component{
                 <div className="all">
                     <div>
                     <img id="PurpleImg" src={Purple} alt="Purple"/>
-                        <p className="headline1">:המטבח הבוכרי</p>
+                        <p className="headline">:המטבח הבוכרי</p>
                         <hr className="hr1"/>
                     </div>
                     <p className="AboutTheFood">
@@ -21,7 +21,7 @@ class Home extends Component{
                 </div>
                 <div className="all">
                     <div>
-                    <p className="headline2">:מאכלים אופייניים</p>
+                    <p className="headline">:מאכלים אופייניים</p>
                         <hr className="hr2"/>
                     </div>
                         <ul>
@@ -47,8 +47,8 @@ class Home extends Component{
                 </div>
                 <div className="all">
                     <div>
-                        <img id="PurpleImg" src={Purple} alt="Purple" style={{height:500}}/>
-                        <p className="headline3">...קצת עלי</p>
+                        <img id="PurpleImg" src={Purple} alt="Purple" style={{height:450}}/>
+                        <p className="headline">...קצת עלי</p>
                         <hr className="hr3"/>
                     </div>
                     <p className="AboutMe">

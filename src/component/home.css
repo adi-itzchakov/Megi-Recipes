@@ -2,18 +2,12 @@
     margin-top: 10px;
 }
 
-.headline1{
+.headline{
     font-size: 20px;
-    margin: 10px 0px 0px 1130px;
+    text-align:right;
+    margin-right: 110px;
 }
-.headline2{
-    font-size: 20px;
-    margin: 0px 0px 0px 1120px;
-}
-.headline3{
-    font-size: 20px;
-    margin: 10px 0px 0px 1180px;
-}
+
 .hr1{
     width: 10%;
     margin-right:9%;
@@ -31,30 +25,13 @@
 }
 .AboutTheFood{
     text-align: right;
-    margin-left: 27%;
+    margin-left: 23%;
     line-height: 2;
     width: 900px;
-}
-
-#PurpleImg{
-    position: absolute;
-    width:100%;
-    z-index: -1;
-    left: 0;
-    height: 21%;
-    background-size: cover;
-}
-ul{
-    direction: rtl;
-    list-style-type:circle;
-    margin-right: 90px;
-    line-height: 2;
+    white-space: pre-wrap;
 
 }
 
-.headlineaboutMe{
-    margin-left: 40px;
-}
 .AboutMe{
     text-align: right;
     margin-left: 56%;
@@ -63,6 +40,24 @@ ul{
     line-height: 2;
     height: 150px;
 }
+
+#PurpleImg{
+    position: absolute;
+    width:100%;
+    z-index: -1;
+    left: 0;
+    height: 25%;
+    background-size: cover;
+}
+
+ul{
+    direction: rtl;
+    list-style-type:circle;
+    margin-right: 20px;
+    line-height: 2;
+
+}
+
 
 #Me{
     width:15%;

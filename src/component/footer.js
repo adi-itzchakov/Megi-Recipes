@@ -9,14 +9,16 @@ class Footer extends Component{
                 <br/>
                 <span className="writeUse">:כתבו לנו</span>
                 <hr />
-                <div className="Name">    
-                    <Input type="text" placeholder="שם פרטי" style={{direction:'rtl'}} />
-                    <br/>
-                    <Input type="text" placeholder="שם משפחה" />
+                <div className="information">
+                    <div className="details">    
+                        <Input type="text" placeholder="שם פרטי" style={{direction:'rtl'}} />
+                        <br/>
+                        <Input type="text" placeholder="שם משפחה" />
+                    </div>
+                    <Form className="massage">
+                        <TextArea placeholder="...כתוב הודעה" style={{direction:'rtl'}}/> 
+                    </Form>
                 </div>
-                <Form className="massage">
-                    <TextArea placeholder="...כתוב הודעה" style={{direction:'rtl'}}/> 
-                </Form>
                 <div className="sendButton">
                     <Button inverted color='pink'>
                         שלח

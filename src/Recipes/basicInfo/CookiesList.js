@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Recipe from "../Recipe.js";
-import cookiesImg from '../../pictures/cookies.jpg';
-// import Shosanim from '../pictures/shosanim.jpeg';
+import Shosanim from '../../pictures/shosanim.jpeg';
 
 import '../../component/pictures.css'
 
@@ -12,8 +11,7 @@ class CookiesList extends Component {
     recipes: [
       {
         title: "שושנים",
-        ingredients: [],
-        img: "",
+        img: Shosanim,
       },
     ],
   };
@@ -28,8 +26,7 @@ class CookiesList extends Component {
     ));
 
     return (
-      <div>
-        <img className="cookiesImg" src={cookiesImg} alt="cookiesImg"/>
+      <div className="color-container">
         <div className="headTitle">עוגיות</div>
         <div className="recipe-list">{recipes}</div>
       </div>
